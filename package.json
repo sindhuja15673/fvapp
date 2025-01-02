@@ -1,0 +1,70 @@
+{
+  "name": "restaurant",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@loadable/server": "^5.16.5",
+    "@react-google-maps/api": "^2.20.3",
+    "@stripe/react-stripe-js": "^3.1.1",
+    "@stripe/stripe-js": "^5.3.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.9",
+    "babel-loader": "^9.2.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "google-map-react": "^2.2.1",
+    "helmet": "^8.0.0",
+    "razorpay": "^2.9.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.4.0",
+    "react-loading-skeleton": "^3.5.0",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^10.0.6",
+    "redux": "^5.0.1",
+    "redux-saga": "^1.3.0",
+    "stripe": "^17.4.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:backend": "cd my-backend && npm start",
+    "start:dev": "npm-run-all --parallel start start:backend",
+    "serve": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "npm-run-all": "^4.1.5"
+  }
+}
