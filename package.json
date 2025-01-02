@@ -38,11 +38,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --max_old_space_size=2048 start",
     "start:backend": "cd my-backend && npm start",
     "start:dev": "npm-run-all --parallel start start:backend",
     "serve": "serve -s build",
-    "build": "react-scripts build",
+    "build": "react-scripts --max_old_space_size=2048 build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
