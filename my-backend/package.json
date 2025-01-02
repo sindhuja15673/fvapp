@@ -23,6 +23,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
-    "stripe": "^17.4.0"
+    "stripe": "^17.4.0",
+     "path": "^0.12.7"
   }
 }
