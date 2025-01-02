@@ -35,10 +35,10 @@ const PORT = process.env.PORT || 5000;
 // app.listen(PORT, () => {
 //   console.log(`Server running on port ${PORT}`);
 // });
-const HOST = 'localhost'; // Bind to all network interfaces
+ // Bind to all network interfaces
 
-app.listen(PORT, HOST, () => {
-  console.log(`Server running on http://${HOST}:${PORT}`);
+app.listen(PORT, () => {
+  console.log(`Server running on ${PORT}`);
 });
 
 
